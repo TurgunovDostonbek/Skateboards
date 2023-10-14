@@ -1,41 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
 }
-.wrapper{
-    max-width: 1440px;
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1240px;
     width: 100%;
     margin: auto;
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    padding: 15px 11px;
-}
-.link{
+
+.link {
     display: flex;
     gap: 22px;
 }
-.link a{
+
+.link a {
     color: #000;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px; /* 150% */
-letter-spacing: 1px;
-text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
-.btn{
+
+.btn {
     padding: 15px 11px;
 }
-.btn button{
+
+.btn button {
     padding: 0 5px;
     background-color: white;
     border: 2px solid white;
@@ -43,13 +54,24 @@ text-transform: uppercase;
 }
 
 
-.wrapper_banner{
-    padding: 63px 0;
+/*  ///  HERO QISMI  /// */
+
+.hero_wrapper {
     height: 810px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url(./img/head/Rectangle\ \(1\).png);
 }
 
-.wrapper_info h1{
+.hero {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero>h1 {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -59,25 +81,25 @@ text-transform: uppercase;
     line-height: 50.625px;
 }
 
-.wrapper_info p{
-    padding-top: 14px;
+.hero>p {
     color: #000;
     text-align: center;
     font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18.75px; /* 125% */
+    line-height: 18.75px;
+    /* 125% */
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
-.info2{
-    padding-top: 22px;
+.hero_btn {
     display: flex;
-    justify-content: center;
-    gap: 12px;
+    gap: 20px;
 }
-.info2 button{
+
+.hero_btn>button {
     border-radius: 35px;
     background: #FF4A32;
     padding: 5px 37px;
@@ -85,99 +107,48 @@ text-transform: uppercase;
     border: 2px solid #FF4A32;
 }
 
-.banner_info{
-    height: 83px;
-    background: #000;
-    align-items: center;
+/* // HERONI BOTTOM QISMI // */
+
+
+.hero_bottom_wrapper {
+    background-color: #000;
 }
 
-.banner_text{
-    display: flex;
-    width: 1200px;
-    padding: 18px 10px;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 20px;
-    margin: auto;
-}
-
-/* <!-- IKKINCHI QISMI --> */
-
-.section1_info{
-    text-align: center;
-    padding-top: 30px;
-}
-
-.section1_info h1{
-    padding: 52px 0px 17px 0px;
-}
-
-.section_baner{
+.hero_bottom {
     padding: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* // MAIN CONTENT // */
+
+/* // FIRST SECTION // */
+
+.first_section {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
+    padding-bottom: 30px;
+}
+
+.first_section>h1 {}
+
+.first_section>h5 {}
+
+.first_section .first_section_info_img {
     display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
-
-.section1_banner1{
-    background-image: url(./img/section1/Rectangle\ \(6\).png); 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 580px;
-    width: 580px;
-}
-
-
-.section1_banner1 h1{
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-}
-
-
-.section1_banner1 p{
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23.438px;
-}
-
-
-/* korish kerak */
-.section1_banner1 img{
-    width: 50px;
-    height: 50px;
-    text-align: center;
-}
-
-.section1_banner2 img{
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    /* display: flex;
-    justify-content: space-around; */
-}
-
-
-.section1_banner2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(./img/section1/Rectangle\ \(7\).png);
-    height: 580px;
-    width: 580px;
-} 
-
-.section1_banner2 h1{
+.first_section_info_img h1 {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -187,8 +158,7 @@ text-transform: uppercase;
     line-height: 30px;
 }
 
-
-.section1_banner2 p{
+.first_section_info_img p {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -198,32 +168,47 @@ text-transform: uppercase;
     line-height: 23.438px;
 }
 
-/* <!-- UCHINCHI QISM --> */
+.first_section_info_img_left {
+    background-image: url(./img/section1/Rectangle\ \(6\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    width: 580px;
+}
 
-.section2{
-    text-align: center;
-    /* width: 1440px; */
+.first_section_info_img_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/section1/Rectangle\ \(7\).png);
+    height: 580px;
+    width: 580px;
+}
+
+    /* /// SECOND SECTION /// */
+
+
+.second_section_wrapper{
     height: 736px;
     background-image: url(./img/section2/Rectangle\ \(8\).png);
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
 }
 
-.section2 p, h3{
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18.75px; /* 125% */
-    letter-spacing: 1px;
+.second_section{
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
-.section2 h3{
-    padding-top: 44px;
-}
-
-.section2 h1{
-    padding: 11px 0px 15px 0px;
+.second_section > h3{
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -232,40 +217,86 @@ text-transform: uppercase;
     font-weight: 700;
     line-height: 50.625px;
 }
-.section2 button{
+
+.second_section h1{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    /* 125% */
+    letter-spacing: 1px; 
+}
+.second_section > p{
+    width: 40%;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    /* 125% */
+    letter-spacing: 1px; 
+}
+.second_section > button{
     border-radius: 35px;
     background: #FF4A32;
     width: 201px;
     height: 33px;
     flex-shrink: 0;
-    border: 2px solid #FF4A32;
+    border: 2px solid #FF4A32;  
 }
-.box{
-    padding-top: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+.oraliq {
+    height: 100px;
 }
+
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+
 
 /* <!-- TORTINCHI QISM --> */
 
-.section3{
+.section3 {
     padding-top: 44px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.box1{
+
+.box1 {
     width: 380px;
     height: 380px;
     background-image: url(./img/section3/Rectangle\ \(9\).png);
 }
 
-.box2{
+.box2 {
     width: 380px;
     height: 380px;
     background-image: url(./img/section3/Rectangle\ \(10\).png);
 }
 
 
-.box3 h1{
+.box3 h1 {
     color: #000;
     font-family: Roboto;
     font-size: 32px;
@@ -275,7 +306,7 @@ text-transform: uppercase;
     padding: 67px 0px 21px 10px;
 }
 
-.box3 p{
+.box3 p {
     color: #000;
     font-family: Roboto;
     font-size: 15px;
@@ -284,12 +315,13 @@ text-transform: uppercase;
     line-height: 22.5px;
     padding-left: 10px;
 }
+
 .section3_button {
     padding: 18px 0px 0px 10px;
-    
+
 }
 
-.section3_button button{
+.section3_button button {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -305,12 +337,12 @@ text-transform: uppercase;
 
 /* BESHINCHI QISM */
 
-.section4{
+.section4 {
     display: flex;
     padding: 45px 0px;
 }
 
-.section4 h1{
+.section4 h1 {
     display: flex;
     width: 459.984px;
     height: 459.984px;
@@ -329,8 +361,8 @@ text-transform: uppercase;
     line-height: 30px;
 }
 
-.section4 p{
-    
+.section4 p {
+
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -341,22 +373,22 @@ text-transform: uppercase;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 23.438px; 
+    line-height: 23.438px;
 }
 
-.image1{
+.image1 {
     background-image: url(./img/section4/Rectangle\ \(11\).png);
     width: 480px;
     height: 480px;
 }
 
-.image2{
+.image2 {
     width: 480px;
     height: 480px;
     background-image: url(./img/section4/Rectangle\ \(12\).png);
 }
 
-.image3{
+.image3 {
     width: 480px;
     height: 480px;
     background-image: url(./img/section4/Rectangle\ \(13\).png);
@@ -367,19 +399,19 @@ text-transform: uppercase;
 
 /* <!-- OLTINCHI QISMI --> */
 
-.section5{
+.section5 {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.video1{
+.video1 {
     width: 540px;
     height: 304px;
     background-image: url(./img/section5/Rectangle\ \(14\).png);
 }
 
-.video2{
+.video2 {
     width: 540px;
     height: 304px;
     background-image: url(./img/section5/Rectangle\ \(16\).png);
@@ -387,36 +419,38 @@ text-transform: uppercase;
 
 /* <!-- YETTINCHI QISM --> */
 
-.section6{
+.section6 {
     /* display: flex; */
 }
 
-.section6_info{
+.section6_info {
     padding-top: 54px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.section6_img p{
+
+.section6_img p {
     color: #FF4A32;
     text-align: center;
-    
+
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; 
+    line-height: 18px;
 }
-.section6_img >span{
+
+.section6_img>span {
     color: #000;
     text-align: center;
-    
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
 }
 
-.section6_img{
+.section6_img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,29 +460,30 @@ text-transform: uppercase;
 
 }
 
-.empty{
+.empty {
     height: 66px;
 }
 
 /* <!-- SAKIZINCHI QISMI --> */
 
-.section7{
+.section7 {
     gap: 20px;
     display: flex;
     justify-content: space-around;
     background-color: #000;
 }
 
-.section7 h1{
+.section7 h1 {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; 
+    line-height: 36px;
 }
-.section7 p{
+
+.section7 p {
     padding: 25px;
     width: 270px;
     color: #FFF;
@@ -459,14 +494,16 @@ text-transform: uppercase;
     font-weight: 400;
     line-height: 22.5px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.card img{
+
+.card img {
     height: auto;
     width: 87px;
 }
@@ -474,7 +511,7 @@ text-transform: uppercase;
 
 /* <!-- TOQIZINCHI QISMI --> */
 
-.section8{
+.section8 {
     padding-top: 20px;
     width: 1200px;
     margin: auto;
@@ -483,7 +520,7 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 
-.section8 h1{
+.section8 h1 {
     color: #000;
     font-family: Roboto;
     font-size: 20px;
@@ -492,21 +529,22 @@ text-transform: uppercase;
     line-height: 30px;
 }
 
-.section8 p, a{
+.section8 p,
+a {
     color: #000;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
 }
 
-#link{
+#link {
     padding-bottom: 10px;
 }
 
 
-.footer_link{
+.footer_link {
     width: 380px;
     height: 189px;
     display: flex;
@@ -514,33 +552,30 @@ line-height: 21px;
 }
 
 
-.footer_info h1{
+.footer_info h1 {
     padding-bottom: 10px;
 }
 
-.footer_info{
+.footer_info {
     padding-left: 20px;
     width: 380px;
     height: 189px;
 }
 
-.footer_info_link{
-padding-top: 19px;
+.footer_info_link {
+    padding-top: 19px;
 }
 
-.section8_footer{
+.section8_footer {
     display: flex;
     justify-content: flex-start;
 }
 
 
-.section8_footer{
+.section8_footer {
     display: flex;
-    
+
     align-items: start;
 }
 
 /* <!-- oxiri --> */
-
-
-
