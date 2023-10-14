@@ -188,10 +188,10 @@ nav {
     width: 580px;
 }
 
-    /* /// SECOND SECTION /// */
+/* /// SECOND SECTION /// */
 
 
-.second_section_wrapper{
+.second_section_wrapper {
     height: 736px;
     background-image: url(./img/section2/Rectangle\ \(8\).png);
     background-position: center;
@@ -199,7 +199,7 @@ nav {
     background-repeat: no-repeat;
 }
 
-.second_section{
+.second_section {
     padding-top: 45px;
     display: flex;
     justify-content: center;
@@ -208,7 +208,7 @@ nav {
     gap: 15px;
 }
 
-.second_section > h3{
+.second_section>h3 {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -218,7 +218,7 @@ nav {
     line-height: 50.625px;
 }
 
-.second_section h1{
+.second_section h1 {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -227,9 +227,10 @@ nav {
     font-weight: 400;
     line-height: 18.75px;
     /* 125% */
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
-.second_section > p{
+
+.second_section>p {
     width: 40%;
     color: #000;
     text-align: center;
@@ -239,20 +240,71 @@ nav {
     font-weight: 400;
     line-height: 18.75px;
     /* 125% */
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
-.second_section > button{
+
+.second_section>button {
     border-radius: 35px;
     background: #FF4A32;
     width: 201px;
     height: 33px;
     flex-shrink: 0;
+    border: 2px solid #FF4A32;
+}
+
+/* /// THRID SECTION /// */
+
+.thrid_section {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.thrid_section_box_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.thrid_section_box_info>h1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.thrid_section_box_info>p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    
+}
+
+.thrid_section_box_info>button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    border-radius: 35px;
+    background: #FF4A32;
+    padding: 5px 16px;
     border: 2px solid #FF4A32;  
 }
 
 
-
-
+    /* /// FO SECTION /// */
 
 
 
@@ -274,66 +326,7 @@ nav {
 
 
 
-/* <!-- TORTINCHI QISM --> */
 
-.section3 {
-    padding-top: 44px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.box1 {
-    width: 380px;
-    height: 380px;
-    background-image: url(./img/section3/Rectangle\ \(9\).png);
-}
-
-.box2 {
-    width: 380px;
-    height: 380px;
-    background-image: url(./img/section3/Rectangle\ \(10\).png);
-}
-
-
-.box3 h1 {
-    color: #000;
-    font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 38.4px;
-    padding: 67px 0px 21px 10px;
-}
-
-.box3 p {
-    color: #000;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22.5px;
-    padding-left: 10px;
-}
-
-.section3_button {
-    padding: 18px 0px 0px 10px;
-
-}
-
-.section3_button button {
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22.5px;
-    border-radius: 35px;
-    background: #FF4A32;
-    padding: 5px 16px;
-    border: 2px solid #FF4A32;
-}
 
 /* BESHINCHI QISM */
 
