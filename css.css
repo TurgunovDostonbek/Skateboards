@@ -371,6 +371,19 @@ nav {
 
 
 
+    /* /// FIFTH SECTION /// */
+
+
+.fifth_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+
+
 
 
 
@@ -389,27 +402,6 @@ nav {
 
 
 
-
-
-/* <!-- OLTINCHI QISMI --> */
-
-.section5 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.video1 {
-    width: 540px;
-    height: 304px;
-    background-image: url(./img/section5/Rectangle\ \(14\).png);
-}
-
-.video2 {
-    width: 540px;
-    height: 304px;
-    background-image: url(./img/section5/Rectangle\ \(16\).png);
-}
 
 /* <!-- YETTINCHI QISM --> */
 
