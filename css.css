@@ -382,6 +382,68 @@ nav {
     padding-top: 50px;
 }
 
+    /* /// SEVENTH SECTION /// */
+
+.seventh_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.seventh_section > h1{
+
+}
+
+
+.seventh_section_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seventh_section_banner_box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.seventh_section_banner_box >p{
+    color: #FF4A32;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;   
+}
+.seventh_section_banner_box > span{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}  
+
+
+
+/* /// EITH SECTION /// */
+
+.eith_section_wrapper{
+    background-color: black;
+}
+
+.eith_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 
 
 
@@ -403,48 +465,7 @@ nav {
 
 
 
-/* <!-- YETTINCHI QISM --> */
 
-.section6 {
-    /* display: flex; */
-}
-
-.section6_info {
-    padding-top: 54px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section6_img p {
-    color: #FF4A32;
-    text-align: center;
-
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-}
-
-.section6_img>span {
-    color: #000;
-    text-align: center;
-
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-}
-
-.section6_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding-top: 40px;
-
-
-}
 
 .empty {
     height: 66px;
