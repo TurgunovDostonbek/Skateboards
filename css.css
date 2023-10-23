@@ -286,7 +286,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: 22.5px;
-    
+
 }
 
 .thrid_section_box_info>button {
@@ -300,14 +300,14 @@ nav {
     border-radius: 35px;
     background: #FF4A32;
     padding: 5px 16px;
-    border: 2px solid #FF4A32;  
+    border: 2px solid #FF4A32;
 }
 
 
-    /* /// FOURTH SECTION /// */
+/* /// FOURTH SECTION /// */
 
 
-.fourth_section{
+.fourth_section {
     padding-top: 30px;
     display: flex;
     justify-content: center;
@@ -333,11 +333,11 @@ nav {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 23.438px; 
+    line-height: 23.438px;
 }
 
 
-.fourth_section_first_box{
+.fourth_section_first_box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -345,10 +345,10 @@ nav {
     gap: 5px;
     background-image: url(./img/section4/Rectangle\ \(11\).png);
     width: 480px;
-    height: 480px; 
+    height: 480px;
 }
 
-.fourth_section_second_box{
+.fourth_section_second_box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -358,7 +358,8 @@ nav {
     height: 480px;
     background-image: url(./img/section4/Rectangle\ \(12\).png);
 }
-.fourth_section_thrid_box{
+
+.fourth_section_thrid_box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,10 +372,10 @@ nav {
 
 
 
-    /* /// FIFTH SECTION /// */
+/* /// FIFTH SECTION /// */
 
 
-.fifth_section{
+.fifth_section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,9 +383,9 @@ nav {
     padding-top: 50px;
 }
 
-    /* /// SEVENTH SECTION /// */
+/* /// SEVENTH SECTION /// */
 
-.seventh_section{
+.seventh_section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,18 +393,16 @@ nav {
     padding-top: 40px;
 }
 
-.seventh_section > h1{
-
-}
+.seventh_section>h1 {}
 
 
-.seventh_section_banner{
+.seventh_section_banner {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.seventh_section_banner_box{
+.seventh_section_banner_box {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -411,76 +410,49 @@ nav {
     gap: 10px;
 }
 
-.seventh_section_banner_box >p{
+.seventh_section_banner_box>p {
     color: #FF4A32;
     text-align: center;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;   
+    line-height: 18px;
 }
-.seventh_section_banner_box > span{
+
+.seventh_section_banner_box>span {
     color: #000;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
-}  
+}
 
 
 
 /* /// EITH SECTION /// */
 
-.eith_section_wrapper{
+.eith_section_wrapper {
     background-color: black;
+    margin-top: 30px;
 }
 
-.eith_section{
+.eith_section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-.oraliq {
-    height: 100px;
-}
-
-
-.wrapper {
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
-}
-
-
-
-
-
-
-.empty {
-    height: 66px;
-}
-
-/* <!-- SAKIZINCHI QISMI --> */
-
-.section7 {
-    gap: 20px;
+.eith_section_card {
     display: flex;
-    justify-content: space-around;
-    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 6px;
 }
 
-.section7 h1 {
+.eith_section_card>h1 {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -490,9 +462,8 @@ nav {
     line-height: 36px;
 }
 
-.section7 p {
-    padding: 25px;
-    width: 270px;
+.eith_section_card>p {
+    width: 70%;
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -502,49 +473,29 @@ nav {
     line-height: 22.5px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
+/*     FOOTER QISMI */
 
-.card img {
-    height: auto;
-    width: 87px;
-}
-
-
-/* <!-- TOQIZINCHI QISMI --> */
-
-.section8 {
-    padding-top: 20px;
-    width: 1200px;
-    margin: auto;
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.section8 h1 {
-    color: #000;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+#link>h1 {
+
 }
 
-.section8 p,
-a {
-    color: #000;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
+.footer_link {
+
+
 }
+
+
+
+
 
 #link {
     padding-bottom: 10px;
@@ -573,16 +524,7 @@ a {
     padding-top: 19px;
 }
 
-.section8_footer {
-    display: flex;
-    justify-content: flex-start;
-}
 
 
-.section8_footer {
-    display: flex;
 
-    align-items: start;
-}
 
-/* <!-- oxiri --> */
